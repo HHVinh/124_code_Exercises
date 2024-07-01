@@ -1,7 +1,7 @@
 
 print('Nhập số thứ 1:')
-a = int(input())
+soA = int(input())
 print('Nhập số thứ 2:')
-b = int(input())
-tong = a + b
+soB = int(input())
+tong = soA + soB
 print('Tổng hai số nguyên là:', tong)
