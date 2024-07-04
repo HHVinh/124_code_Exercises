@@ -1,5 +1,5 @@
 #Mo file voi mode='r' de doc file
-with open('bai11Vao.txt', 'r') as fileInp:
+with open('bai12Vao.txt', 'r') as fileInp:
 
     #Dung ham read() doc toan bo du lieu tu file
     toanBoFile = fileInp.read()
@@ -11,7 +11,7 @@ danhSachCacDong = toanBoFile.splitlines()
 cauChaoHoanChinh = ' '.join(danhSachCacDong)
 
 #Mo file voi mode='w' de ghi file
-with open('bai11Ra.txt', 'w') as fileOut:
+with open('bai12Ra.txt', 'w') as fileOut:
 
     #Ghi noi dung vao file
     fileOut.write(cauChaoHoanChinh)
