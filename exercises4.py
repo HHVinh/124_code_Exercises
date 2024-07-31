@@ -1,5 +1,4 @@
-# Decimal - Số thập phân
-soThapPhan = int(input()) #Nhap gia tri tu ban phim va chuyen sang kieu so nguyen
+soThapPhan = int(input('Nhập số nguyên bất kì: ')) #Nhap gia tri tu ban phim va chuyen sang kieu so nguyen
 
 #Xuat cau voi dinh dang theo yeu cau de bai
 # %d dong vai tro giu cho cho 1 gia tri so thap phan
