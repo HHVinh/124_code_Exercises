@@ -28,7 +28,7 @@ try:
                     thongBao = 'Phương trình có 1 nghiệm duy nhất: \n x = {}'.format(-c/b)
             else:
                 # Tính Delta
-                delta = a*a - 4*a*c
+                delta = b*b - 4*a*c
                 # Kiểm tra các trường hợp của delta
                 if delta > 0:
                     x1 = float((-b + math.sqrt(delta))/(2*a))
